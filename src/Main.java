@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.math.BigInteger;
 import java.util.*;
 
 public class Main {
@@ -18,6 +17,9 @@ public class Main {
         System.out.println("Podaj nazwe zwierzaka");
         Scanner a = new Scanner(System.in);
         String b =a.nextLine();
+        for (int i = 0; i < b.length(); i++){
+            System.out.println(b);
+        }
         lista1.add(a);
 
 
